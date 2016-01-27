@@ -49,9 +49,10 @@ namespace T2
                 }
             }
 
+            Console.WriteLine("Deck:");
             foreach(Card card in pakka.deck)
             {
-                Console.WriteLine(card.ToString);
+                Console.WriteLine(card.ToString());
             }
         }
     }

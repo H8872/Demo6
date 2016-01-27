@@ -8,14 +8,14 @@ namespace T2
 {
     class Deck
     {
-        public List<Card> deck = new List<Card>();
-        Card card = new Card();
+        public Stack<Card> deck = new Stack<Card>();
 
         public void AddCard(string maa, int numero)
         {
+            Card card = new Card();
             card.Land = maa;
             card.Number = numero;
-            deck.Add(card);
+            deck.Push(card);
         }
 
     }
